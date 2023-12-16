@@ -1,0 +1,159 @@
+*{
+   box-sizing: border-box; 
+   margin: 0;
+}
+.row{
+    margin-bottom: 20px;
+      /* border: 1px solid red;   */
+}
+
+.item{
+     float: left;
+     width: 100%;
+}
+
+.item2{
+    float: left;
+    width: 50%;
+    /* border: 1px color blue; */
+}
+
+.item3{
+    float: left;
+    width: 33.33%;
+}
+
+.item4{
+    float: left;
+    width: 25%;
+}
+.top-bar{
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    /* margin: 22px; */
+    padding: 10px;
+    /* height: 50px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+
+}
+span{
+      background: #000;
+      height: 20px;
+      width: 80px;
+      display: inline-block;
+      text-decoration: underline;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 12px 9px;
+    font-size: 20px;
+    
+}
+li{
+    display: inline;
+}
+.row::after{
+     content: "";
+     display: table;
+     clear: both;
+}
+.right{
+    text-align: right;
+    padding-right: 20px;
+}
+.active{
+    background-color: green;
+    color: white !important;
+    border-radius: 10px;
+}
+a:hover{
+    color: green;
+    text-decoration: dotted;
+}
+.logo{
+    height: 98px;
+    width: 194px;
+}
+h1{
+    color: green;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    margin: 20px;
+}
+h2,p,label,h6{
+    
+    margin: 20px;
+    text-align: justify;
+}
+#banner{
+    background-image: url('https://landtwisters.in/public/web/assets/images/background/main-bg.jpeg');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+span{
+    color: green;
+}
+.img-about, .img-about{
+    height: 300px;
+    width: 100%;
+}
+h3{
+    color: green;
+    margin: 20px;
+    font-size: 22px;
+}
+.service:hover{
+    background-color: green;
+    color: white;
+}
+ .service:hover h3{
+    color: white;
+} 
+
+.input{
+
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80%;
+
+}
+.input:hover{
+    border-color:  green;
+    outline: 0;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer .logo{
+    display: block;
+}
+.footer a{
+    color: white;
+    display: block;
+}
+.footer a:hover{
+    color: blue;
+}
+h6{
+    font-size: 20px;
+}
+#myfav{
+    height: 500px;
+    max-width: 500px;
+    /* background-color: red; */
+}
